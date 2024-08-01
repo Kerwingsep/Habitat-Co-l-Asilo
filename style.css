@@ -1,0 +1,2125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*parte del header*/
+
+header{
+    background-color: #469F77;
+    height: 6vh;
+    
+}
+
+/*parte del nav*/
+
+.nav-elementos{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 4;
+}
+
+.navbar{
+    z-index: 4;
+}
+
+.nav-item a, li, ul{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px 2px;
+    color: #539893 !important;
+}
+
+.nav-item ul :hover{
+    border-bottom: 3px dotted #c7d684;
+}
+
+.nav-item a:hover{
+    color: #c7d684;
+    border-bottom: 3px dotted #c7d684;
+}
+
+.caja-icono-nav a{
+    font-size: 20px;
+    border: 1px solid #19766c;
+    border-radius: 75%;
+    padding: 0px 3px;
+}
+
+.yt:hover,.fb:hover, .ig:hover{
+    background-color: #c7d684 !important;
+}
+
+.yt{
+        background: #539893 !important;
+}
+
+.fb{
+margin-right: 7%;
+    background: #539893 !important;
+}
+
+.ig{
+        background: #539893 !important;
+    margin-left: 6%;
+}
+
+/*parte de la imagen verde y la señora*/
+
+.caja-envios-señora{
+    width: 100%;
+}
+
+.img-verde{
+    width: 100%;
+}
+
+
+.caja-envios-señora{
+    position: relative;
+      
+}
+
+.btn1{
+    position: absolute;
+    color: #81b47c;
+    width: 118%;
+    top: 119%;
+    border: #fff;
+    left: 0%;
+    z-index: 1;
+    padding: 4px 15px;
+    background-color: #fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: #81b47c !important;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.img-verde{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.parrafo{
+     margin-left: -8%;
+    margin-top: -59px;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.parrafo h3{
+    font-size: 50px;
+}
+
+.parrafo h6{
+    font-size: 20px;
+}
+
+
+
+/*servicios integrales y residenciales*/
+
+.caja{
+    background: white;
+    height: 200px;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    padding: 22px 20px;
+    box-shadow: 7px 6px 8px 0.3px rgba(0, 0, 0, 0.3);
+    position: relative;
+    left: 7%;
+    bottom: 32px;
+    z-index: 500;
+}
+
+
+.tittle-servicios, .text-servicios {
+    color: #539893;
+    width: 70%;
+}
+
+.caja-servicios{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 93%;
+
+}
+
+.tittle-servicios{
+    font-size: 40px;
+}
+
+.text-servicios{
+    letter-spacing: 2.5px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.caja-1{
+    position: relative;
+    top: 40%;
+    left: 6%;
+}
+
+
+.caja-2{
+    position: absolute;
+    left: 10%;
+    top: 89%;
+}
+
+/*caja de servicios residenciales*/
+
+.caja-verde{
+    width: 49%;
+    display: block;
+    background: #c7d684;
+    height: 74vh;
+}
+
+.residenciales2{
+    width: 23%;
+    position: absolute;
+    left: 19%;
+    margin-top: 9%;
+}
+
+.hoja-img{
+    position: absolute;
+    margin-top: 10%;
+    right: 85%;
+    width: 15%;;
+}
+
+.text-residenciales h3{
+    font-size: 32px;
+    color: #5d5d5d;
+    line-height: 0.8;
+    padding: 5px;
+    font-weight: 700;
+    padding-bottom: 1px;
+}
+
+.text-residenciales p{
+    font-size: 24px;
+    padding: 2px 4px;
+    letter-spacing: 6.2px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.residenciales2 hr{
+    border: 1px solid #19766c;
+    margin-left: 15px;
+}
+
+.img-servicios{
+    position: relative !important;
+    bottom: 64% !important;
+    left: 3% !important;
+}
+
+.listas-residenciales{
+    padding-top: 2%;
+    width: 80%;
+    position: absolute;
+    padding-left: 38%;
+  align-items: center;
+}
+
+.servicioimg{
+    position: relative;
+    bottom: 52%;
+}
+
+.img-servicios{
+    position: relative;
+    bottom: 52%;
+}
+
+.residenciales3{
+    height: 63%;
+    margin-left: 13%;
+}
+
+.lista1{
+    display: flex;
+    align-items: center;
+}
+
+.lista1 p{
+    font-size: 20px;
+}
+
+.lista1 img{
+    margin-bottom: 2%;
+}
+
+.btn-residencial{
+    position: relative;
+    border-radius: 50px;
+    background-color: #81b47c;
+    top: 60%;
+    width: 27%;
+}
+
+.btn-residencial:hover{
+    background-color: #19766c;
+}
+
+.conocer-boton{
+    margin-left: 6.4% !important;
+    height: 61px;
+    width: 84%;
+    border-bottom: 3px solid #81b47c;
+    border-left: 3px solid #81b47c;
+    border-right: 3px solid #81b47c;
+}
+
+/*servicios adicionales*/
+
+.caja-adicional{
+    height: 949px;
+}
+
+.hijo-adicionales1{
+    width: 41%;
+    position: relative;
+    left: 66%;
+    display: flex;
+}
+
+.hijo-adicionales1 hr{
+    margin-left: 16px;
+    position: relative;
+    right: 4%;
+    border: 1px solid red;
+}
+
+.hijo-adicionales1 img{
+    position: absolute;
+    top: 179%;
+}
+
+.caja-verde-a{
+    display: block;
+    background: #c7d684;
+    width: 52%;
+    position: relative;
+    left: 57.7%;
+    height: 95vh;
+}
+
+.adicionales2-text{
+    width: 39%;
+    position: absolute;
+    right: 34%;
+}
+
+.text1, .text2{
+    display: flex;
+}
+
+.text1{
+    font-size: 16px;
+    color: #5d5d5d;
+    font-weight: 700;
+    text-align: end;
+    margin-bottom: 8px;
+    margin-left: 32%;
+}
+
+.text2{
+    font-size: 16px;
+    color: #5d5d5d;
+    font-weight: 700;
+    text-align: end;
+    margin-bottom: 8px;
+    position: relative;
+    right: 31%;
+}
+
+.p1{
+    position: relative;
+    margin-right: 0%;
+    right: 5%;
+}
+
+.p2{
+    position: relative;
+    right: 5%;
+}
+
+.hoja-peq{
+    height: 20px;
+}
+
+.hijo-adicionales1-text h3{
+    font-size: 32px;
+    color: #5d5d5d;
+    line-height: 0.8;
+    padding: 5px;
+    font-weight: 700;
+    padding-bottom: 1px;
+}
+
+.hijo-adicionales1-text p{
+    font-size: 24px;
+    padding: 2px 4px;
+    letter-spacing: 6.2px;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    right: 4%;
+}
+
+.hoja-adicionales{
+    margin-left: 84%;
+    position: absolute;
+    width: 14%;
+    /* left: 86%; */
+    margin-top: -2%;
+}
+
+.caja-adicionales3{
+    position: relative;
+    bottom: 61%;
+}
+
+.conocer-mas-2{
+    background: #fff;
+    height: 50px;
+    width: 92%;
+    position: relative;
+    left: 8%;
+    border-bottom: 3px solid #81b47c;
+    border-left: 3px solid #81b47c;
+    border-right: 3px solid #81b47c;
+    width: 76%;
+}
+
+.btn{
+    background: black;
+    position: relative;
+    top: 1.5pc;
+    border-radius: 41px;
+    background-color: #81b47c;
+    width: 45%;
+}
+
+.btn:hover{
+    background-color: #469F77;
+}
+
+/*parte de los 10 años*/
+
+.caja-diseños{
+    height: 66vh;
+}
+
+.diezdiseños{
+    margin: 20px 10px;
+    width: 30%;
+}
+
+.diseños2{
+    margin: 72px 10px;
+    width: 50%;
+    position: absolute;
+    left: 42%;
+}
+
+.caja-diezaños{
+    padding-top: 10px;
+    position: relative;
+    top: 22%;
+    left: 2%;
+    color: rgba(120, 120, 120, 0.8);
+}
+
+.sqn-info{
+    position: relative;
+    /* bottom: -9%; */
+    width: 12%;
+    left: 9%;
+    top: 17%;
+}
+
+
+.vermas{
+    color: #469F77;
+    text-decoration: none;
+}
+
+/*parte de las fotos*/
+
+.caja-señoras{
+    height: 300px;
+}
+
+.foto-1{
+    width: 110%;
+}
+
+.foto-3{
+    width: 99%;
+}
+
+.foto-2{
+    width: 109%;
+}
+
+.foto-4{
+    width: 97%;
+}
+
+.galeria-1{
+    display: flex;
+}
+
+.galeria1{
+    width: 77%;
+}
+
+.galeria3{
+    width: 50%;
+    position: relative;
+    left: 39%;
+    top: 6%;
+}
+
+.galeria-3{
+    width: 70%;
+}
+
+.foto-6, .foto-7{
+    width: 109%;
+}
+
+.foto-5{
+    position: relative;
+    top: 6%;
+    width: 137%;
+    left: 2%;
+}
+
+.galeria-2{
+    width: 50%;
+}
+
+/*parte de mini-noticias y boletin de mayo*/
+
+.noticias{
+    height: 115px !important;
+}
+
+.borde-noticias{
+    width: 18%;
+}
+
+.titulo{
+    color: #19766c;
+}
+
+.card{
+    height: 56%;
+    overflow: hidden;
+}
+
+.señoras-img{
+    opacity: .8;
+}
+
+.card-img-overlay{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+}
+
+.card-title{
+    border: 1px solid #19766c;
+    background-color: #81b47c;
+    padding: 2px;
+    color: #fff;
+    display: inline-block;
+}
+
+.card-text1{
+    opacity: .5;
+}
+
+.card-text{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/*parte de las tarjetas y boton*/
+
+.card{
+    margin: 10px;
+    border: none;
+}
+
+.card-group{
+    margin: 85px;
+}
+
+.card-body{
+    border: none;
+}
+
+.card-footer{
+    border: none;
+}
+
+.card-textt{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.buton{
+    position: relative;
+    bottom: 83px;
+    left: 2%;
+    border-radius: 50px;
+    background-color: #81b47c;
+    width: 14%;
+    padding: 6px;
+    border: #81b47c;
+}
+
+.buton a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/*parte de aliados y imagenes*/
+.caja-aliados-img{
+    width: 100%;
+    height: 150px;
+}
+
+.hijo-aliados-img{
+    width: 100%;
+    align-items: center;
+}
+
+.aliados{
+    width: 50%;
+}
+
+.caja-imagenes{
+    width: 50%;
+    display: flex;
+}
+
+.linea-imagenes{
+    position: relative;
+    right: 6%;
+    border: 1px solid red;
+}
+
+.img-uni{
+    position: relative;
+    /* margin-left: 37%; */
+    left: 12%;
+}
+
+.p{
+    position: relative;
+    left: 8%;
+    font-weight: 700;
+    line-height: 0;
+    font-size: 100px;
+    opacity: 0.2;
+    color: #c7d684;
+}
+
+.h4{
+    position: relative;
+    color: #19766c;
+    font-size: 30px;
+    left: 9%;
+    top: 53px;
+}
+
+/*grupo sura y flia*/
+
+.caja-imgs{
+    background-color: #efefef;
+    width: 100%;
+    height: 100px;
+}
+
+.hijo-imgs{
+    align-items: center;
+    width: 100%;
+    margin-left: 18%;
+}
+
+.img1, .img2{
+    width: 50%;
+}
+
+/*formularios*/
+
+.contenedor-formulario{
+    background-image: url(../img/contacto.jpg);
+    background-size: 100% 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.hijo-formulario{
+    width: 100%;
+}
+
+.caja-imagen{
+    width: 50%;
+    position: relative;
+    width: 40%;
+    bottom: 8%;
+    left: 1%;
+}
+
+.caja-formulario{
+    width: 50%;
+    height: 600px;
+    position: relative;
+    top: 8%;
+}
+
+.formulario{
+    margin: 3%;
+}
+
+.button-btn{
+    width: 115% !important;
+}
+
+/*parte de informativa*/
+
+.caja-informacion{
+    height: 253px;
+    background-color: #19766c;
+}
+
+.hijo-informacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 16%;
+}
+
+.caja-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-prt1, .info-prt2, .info-prt3{
+    width: 33.33%;
+}
+
+.info-prt2__2{
+    padding: 22px 0px;
+    letter-spacing: 2px;
+    color: #fff;
+    line-height: 18px;
+    font-weight: 100;
+}
+
+
+.info-prt3 {
+    padding: 22px 0px;
+    letter-spacing: 2px;
+    color: #fff;
+    line-height: 18px;
+    font-weight: 100;
+}
+
+.info-text1, .info-text2{
+    letter-spacing: 1px;
+}
+
+.hr-info1{
+    width: 63%;
+}
+
+.caja-iconosprt3 a, i{
+    color: #fff !important;
+}
+
+.caja-icono-nav{
+    justify-content: space-around;
+}
+
+.caja-iconosprt3 a:hover{
+    color: #c7d684;
+    border-bottom: 3px dotted #c7d684;
+}
+
+.info-text3{
+    border: 1px solid #ffffff;
+    letter-spacing: 2px;
+    color: #fff;
+    line-height: 26px;
+    padding: 2px 9px;
+}
+
+.info-text1, .info-text2{
+    letter-spacing: 2px !important;
+    color: #fff;
+}
+
+/*footer parte final*/
+
+.fondo-negro{
+    background-color: #000;
+    height: 5%;
+}
+
+.fondo-negro-hijos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+}
+
+.fondo-negro-hijos p{
+    font-size: 10px;
+    position: relative;
+    top: 7px;
+}
+
+.cajon-footer{
+    margin-left: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr-footer{
+    position: relative;
+    right: 4%;
+    border: 1px solid #fff;
+    height: 21px;
+}
+
+.ico-Desarrollo{
+    margin-left: 11%;
+    width: 25px;
+    height: 20px;
+}
+
+.muva{
+    margin-right: 6%;
+    width: 60px;
+}
+
+/*resoluciones*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+/*caja de imagenes del nav*/
+
+.dropdow-menu .show{
+    width: 96%;
+}
+
+.drop1 img{
+    width: 123px;
+}
+
+.drop2 img{
+    width: 123px;
+}
+
+
+    .parrafo{
+        width: 78%;
+        position: relative;
+        left: 25%;
+        top: -60%;
+    }
+
+    .parrafo h1{
+        font-size: 42px;
+    }
+
+    .parrafo h6{
+        font-size: 22px;
+    }
+
+    .btn1{
+        width: 91%;
+    }
+
+    .caja{
+        background: white;
+        height: 173px;
+        width: 100%;
+        position: relative;
+        left: 5%;
+        bottom: 22px;
+        z-index: 500;
+    }
+
+    .tittle-servicios{
+        margin: 2px 3px;
+        position: absolute;
+        width: 71%;
+        font-size: 18px;
+        right: 9%;
+        bottom: 106px;
+    }
+
+    .text-servicios{
+        position: absolute;
+    font-size: 15px;
+    right: 7%;
+    bottom: 40px;
+    }
+
+    .caja-servicios{
+        position: relative;
+        top: 132%;
+        right: 0%;
+        left: 2%;
+    }
+    
+    .viñeta-izquierda{
+        width: 33px;
+    position: absolute;
+    left: 75%;
+    bottom: 56px;
+    }
+
+    .viñeta-derecha{
+        width: 32px;
+    position: absolute;
+    left: -9%;
+    bottom: -25px;
+    }
+    .residenciales2{
+        position: absolute;
+        left: 0%;
+        }
+    
+        .residenciales2{
+            position: absolute;
+            left: 0%;
+            }
+
+    .hoja-img{
+        display: none;
+    }
+
+    .listas-residenciales{
+    font-size: 15px;
+    position: absolute;
+    right: 9%;
+    }
+
+    .lista1 p{
+        font-size: 15px;
+    }
+
+    .hoja-adicionales{
+        display: none;
+    }
+
+    .caja-verde{
+        width: 50%;
+        height: 66vh;
+        position: relative;
+        right: 16%;
+    }
+
+    .img-servicios{
+        margin-bottom: 14%;
+    }
+
+    .servicioimg{
+        position: relative;
+    right: 15%;
+    width: 90%;
+    }
+
+    .conocer-boton{
+        position: relative;
+    right: 17%;
+    height: 51px;
+    }
+
+    .btn-residencial{
+        width: 65%;
+    }
+
+    .text-white{
+        font-size: 15px;
+    }
+
+    .caja-adicional{
+        height: 732px;
+    }
+
+    .caja-adicionales1{
+        position: relative;
+    right: 67%;
+    top: 1%;
+    }
+
+    .caja-adicionales2{
+        position: relative;
+    right: 5%;
+    }
+
+    .adicionales2-text{
+        width: 43%;
+        position: absolute;
+        right: 52%;
+        margin-top: 10%;
+    }
+    .text1{
+        font-size: 13px;
+    }
+    .text2{
+        position: relative;
+        width: 9%;
+        font-size: 12px;
+        left: -5%;
+    }
+
+    .caja-verde-a{
+        height: 66vh;
+    width: 59%;
+    position: relative;
+    left: 47%;
+    }
+
+    .caja-adicionales3{
+        top: -35%;
+        position: relative;
+        left: -3%;
+        width: 101%;;
+}
+   .img-adicionales{
+    width: 85%;
+   }
+
+   .conocer-mas-2{
+    position: relative;
+    left: 5%;
+   }
+   .btn-adicionales{
+    width: 68%;
+   }
+
+   .caja-diseños{
+    height: 160vh;
+    display: flex;
+    flex-direction: row;
+   }
+
+   .diseños{
+    display: flex;
+   }
+
+   .diseños1{
+    display: flex;
+    flex-direction: column;
+}
+
+.diezdiseños{
+    width: 70%;
+}
+
+.diseños2{
+    position: absolute;
+    /* top: 10px; */
+    width: 62%;
+}
+
+.caja-diezaños{font-weight: 600;
+    position: relative;
+    width: 100%;
+    left: -49%;
+    margin-top: 132%;
+}
+
+.parrafo-diezaños, .parrafo-diezaños2{
+    width: 100%;
+    font-size: 12px;
+}
+
+.btn-diezaños{
+    width: 102%;
+    position: relative;
+    right: 50%;
+}
+
+.sqn-info{
+    display: none;
+}
+  
+.galeria-1{
+    height: 832px;
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.galery1{
+    width: 125%;
+    position: relative;
+    left: 5%;
+
+}
+
+.galeria-2{
+    position: relative;
+    left: 15%;
+}
+
+.galeria-3{
+    width: 80%;
+    position: relative;
+        margin: 5%;
+        display: flex;
+        right: 29%;
+        top: 2%;
+}
+
+.galeria3-2{
+    position: absolute;
+    left: 111%;
+}
+
+.caja-señoras{
+    height: 292px;
+}
+
+.señoras-img{
+    height: 105%;
+}
+
+.caja-boletin{
+    width: 85%;
+}
+
+
+.card-text{
+    font-size: 15px;
+}
+
+.card-group{
+    margin: 34px;
+}
+.card-img-overlay{
+    position: absolute;
+    top: 3%;
+    left: 4%;
+}
+
+.btn-ver-todos{
+    width: 52%;
+    position: relative;
+    bottom: 54px;
+}
+
+.hijo-aliados-img{
+    flex-direction: column;
+    /* display: flex; */
+    height: 300px;
+}
+
+.aliados{
+    width: 50%;
+    height: 50%;
+}
+
+.p{
+    font-size: 74px;
+        position: relative;
+        left: -68%;
+        top: 18px;
+}
+
+.caja-imagenes{
+    display: flex;
+    position: relative;
+    /* left: 50%; */
+    width: 50%;
+    height: 50%;
+    flex-direction: column-reverse;
+    right: 35%;
+}
+
+.imagenes{
+    width: 100%;
+    margin-bottom: 9%;
+}
+
+.img-tena{
+    position: relative;
+    width: 73%;
+    bottom: 16%;
+}
+
+.img-uni{
+    width: 140%;
+    position: relative;
+    left: 83%;
+    bottom: 63%;
+}
+
+.linea-imagenes{
+    display: none;
+
+}
+
+.hijo-imgs{
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right: 18%;
+    margin-top: 6%;
+}
+
+.img1 img{
+    width: 163%;
+}
+
+.contenedor-formulario{
+    height: 622px;
+}
+
+.caja-imagen{
+    position: relative;
+    top: -2%;
+    left: 14%;
+}
+
+.caja-imgs{
+    height: 183px;
+}
+
+.caja-imagen img{
+    width: 161%;
+}
+
+.caja-formulario{
+    position: relative;
+    width: 88%;
+    height: 69%;
+    top: -5%;
+}
+
+.hijo-formulario{
+    position: relative;
+    left: 2%;
+    width: 92%;
+}
+
+.formulario{
+    margin: 1%;
+    height: 40vh;
+}
+.button-btn{
+    position: relative;
+        top: 23%;
+        left: 23%;
+        width: 50% !important;
+}
+
+.caja-informacion{
+    height: 778px;
+}
+
+.caja-info{
+    flex-direction: column;
+}
+
+.info-prt1, .info-prt2, .info-prt3{
+    display: contents;
+}
+
+.info-prt2__2{
+    margin-top: 10%;
+}
+
+.info-prt3__3{
+    margin-top: 19%;
+}
+
+.caja-icono-nav{
+    justify-content: center;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    .parrafo{
+        position: absolute;
+    left: 21%;
+    top: 29%;
+    }
+
+
+    .parrafo h1{
+        font-size: 55px;
+    }
+
+    .caja-container{
+        position: relative;
+    right: 4%;
+    }
+
+    .viñeta-derecha{
+        position: absolute;
+    right: 99%;
+    }
+
+    .caja-servicios{
+        width: 85%;
+    position: absolute;
+    left: 17%;
+    }
+
+    .tittle-servicios, .text-servicios{
+        font-size: 22px;
+        position: relative;
+        left: 0%;
+    }
+
+    .viñeta-izquierda{
+        position: absolute;
+    left: 322%;
+    bottom: 54px;
+    }
+
+    .caja-2{
+        width: 22%;
+    }
+
+    .residenciales1{
+        width: 44%;
+
+    }
+
+    .residenciales3{
+        position: relative;
+        right: 13%;
+        top: 6%;
+    }
+
+    .listas-residenciales{
+        left: 11%;
+        width: 91%;
+        position: absolute;
+    }
+
+    .lista1{
+        width: 80%;
+    
+    }
+
+    .caja-verde-a{
+        width: 46%;
+    }
+
+    .img-servicios{
+        width: 45%;
+    position: relative !important;
+    left: 7% !important;
+    }
+
+
+    .servicioimg{
+        width: 192%;
+    }
+
+    .conocer-boton{
+        margin-left: 11% !important;
+        height: 54px;
+        width: 173%;
+    }
+
+    .caja-adicionales1{
+        width: 80%;
+    }
+
+    .hijo-adicionales1{
+        justify-content: end;
+    }
+
+    .caja-adicionales2{
+        top: 9%;
+        position: relative;
+        left: 14%;
+    }
+
+    .caja-adicionales2-text{
+        position: absolute !important;
+        right: 38% !important;
+        margin-top: 8% !important;
+    }
+
+    .text1{
+        position: relative;
+        right: 10%;
+    }
+
+    .text2{
+        position: relative;
+    right: 51%;
+        width: 114%;
+    height: 75px;
+    }
+
+    .caja-verde-a{
+        height: 74vh;
+    width: 47%;
+    }
+
+    .caja-adicionales3{
+        top: -29%;
+        position: relative;
+        left: 14%;
+    }
+
+    .img-adicionales{
+        width: 92%;
+    }
+
+    .btn-adicionales{
+        width: 59%;
+    }
+
+    .hoja-adicionales{
+        margin-top: 2%;
+    margin-left: 5%;
+    }
+
+    .caja-diseños{
+        height: 96vh;
+    }
+
+    .diseños{
+        height: 100%;
+    }
+
+    .diseños1{
+        display: flex;
+    height: 50%;
+    justify-content: center;
+    width: 99%;
+    }
+
+    .diezdiseños{
+        width: 34%;
+    }
+
+    .diseños2{
+        height: 50%;
+    position: absolute;
+    left: 8%;
+    margin-top: 29%;
+    }
+
+    .caja-diezaños{
+        width: 112%;
+    }
+
+    .parrafo-diezaños, .parrafo-diezaños2{
+        width: 137%;
+    }
+
+    .btn-diezaños{
+        width: 100%;
+    position: relative;
+    top: 26%;
+    }
+
+    .caja-sqn-info{
+        position: relative;
+    right: 5%;
+    }
+
+    .galeria-1{
+        margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .galeria1{
+        position: relative;
+    left: 9%;
+    }
+
+    .galeria-2{
+        position: relative;
+        left: 12%;
+    }
+
+    .galeria-3{
+        position: relative;
+    margin-top: 8%;
+    display: flex;
+    left: 5%;
+    }
+
+    .galeria3{
+        display: flex;
+    width: 50%;
+    }
+
+    .galeria3-1{
+        position: relative;
+    right: 59%;
+    }
+
+    .galeria3-2{
+        position: absolute;
+    left: 60%;
+    }
+
+    .caja-img{
+        height: 62%;
+    }
+
+    .card-text{
+        font-size: 20px;
+    }
+
+    .btn-ver-todos{
+        width: 39%;
+    }
+
+    .caja-aliados-img{
+        height: 260px;
+    }
+
+    .hijo-aliados-img{
+        flex-direction: column;
+    }
+
+    .aliados{
+        margin-bottom: 22%;
+    margin-right: 45%;
+    }
+
+    .caja-imagenes{
+        margin-right: 51%;
+    display: flex;
+    flex-direction: row;
+    }
+
+    .imagenes{
+        width: 90%;
+    display: flex;
+    position: relative;
+    bottom: 32px;
+    }
+
+    .img-uni{
+        width: 128%;
+    }
+
+    .caja-imgs{
+        height: 150px;
+    }
+
+    .hijo-imgs{
+        position: relative;
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        right: 18%;
+    
+    }
+
+    .hijo-formulario{
+        display: flex;
+    flex-direction: column;
+    }
+
+    .caja-imagen img{
+        position: relative;
+        width: 88%;
+        top: 67%;
+        left: 79%;
+    }
+
+    .caja-formulario{
+        width: 69%;
+    height: 65%;
+    position: relative;
+    left: 12%;
+    z-index: 1999;
+    top: 7%;
+    }
+
+    .button-btn{
+        width: 60% !important;
+        position: relative !important;
+        top: 91% !important;
+        left: 17% !important;
+   
+    }
+
+    .caja-informacion{
+        height: 600px;
+    }
+
+    .hijo-informacion{
+        display: contents;
+    }
+
+    .caja-info{
+        height: 199px;
+    display: contents;
+    }
+
+    .info-prt1{
+        position: relative;
+    font-size: 15px;
+    top: 3%;
+    }
+
+    .info1-text{
+        width: 193%;
+    }
+
+    .info-prt2{
+        width: 150%;
+        font-size: 15px;
+        position: relative;
+        top: 4%;
+    }
+
+    .info-prt3{
+        display: contents;
+    /* display: flex; */
+    font-size: 15px;
+    }
+
+    .caja-iconosprt3{
+        display: flex;
+    }
+
+    .info-text3{
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+
+
+    .parrafo{
+        position: absolute;
+    top: 26%;
+    left: 26%;
+    }
+
+    .parrafo h1{
+        font-size: 60px;
+    }
+
+    .parrafo h6{
+        font-size: 50px;
+    }
+
+    .btn1{
+        width: 70%;
+    }
+    .caja-1{
+        margin-right: 8%;
+    position: relative;
+    right: -6%;
+}   
+    .caja-2{
+        position: absolute;
+    left: 80%;
+    top: 76px;
+    }
+
+    .caja-servicios{
+        width: 99%;
+    }
+
+    .text-servicios{
+        font-size: 25px;
+    }
+
+    .residenciales1{width: 50%;
+    }
+
+    .residenciales3{
+        width: 50%;
+        position: relative;
+        right: 3%;
+    }
+
+    .caja-residenciales3{
+        margin-top: 17%;
+    height: 498px;
+    }
+
+    .listas-residenciales{
+        position: absolute;
+        left: 32%;
+    }
+
+    .lista1, .lista1{
+        width: 159%;
+    }
+
+    .caja-verde{
+        height: 50vh;
+    width: 70%;
+    }
+
+    .conocer-mas-2{
+        position: relative;
+    left: 41%;
+    }
+
+    .img-servicios{
+        position: absolute;
+    top: -72%;
+    }
+
+    .servicioimg{
+        width: 131%;
+    }
+
+    .conocer-boton{
+        height: 50px;
+        width: 118%;
+    }
+
+    .btn-residencial{
+        width: 68%;
+    }
+
+    .caja-verde-a{
+        margin-top: 5%;
+        margin-left: -6%;
+        width: 47% !important;
+    }
+
+    .caja-adicionales1{
+        width: 86%;
+    }
+
+    .caja-adicionales2-text{
+        margin-top: 15% !important;
+        position: absolute !important;
+        right: 37% !important;
+    }
+
+    .caja-adicionales3{
+        width: 70%;
+    position: relative;
+    /* top: -41%; */
+    bottom: 43%;
+    }
+
+    .img-adicionales{
+        position: relative;
+    left: 33%;
+    width: 92%;
+    }
+
+    .hoja-adicionales{
+        margin-left: 1%;
+    }
+
+    .caja-sqn-info{
+        position: absolute;
+    right: 9%;
+    }
+
+    .galeria1{
+        margin-top: 5%;
+    }
+
+    .galeria3{
+        margin-left: -4%;
+        display: block;
+        width: 83%;
+    }
+
+    .galeria3-2{
+        margin-top: 16%;
+    }
+
+    .btn-ver-todos{
+        width: 27%;
+    }
+
+    .p{
+        position: relative;
+    left: -4%;
+    }
+
+    .linea-imagenes{
+        height: 20vh;
+    }
+
+    .imagenes{
+        margin-bottom: 10%;
+    }
+
+    .img-uni{
+        width: 72%;
+    }
+
+    .caja-imagen img{
+        width: 103%;
+    }
+
+    .button-btn{
+        width: 176% !important;
+    }
+
+    .caja-informacion{
+        height: 292px;
+    }
+
+
+}
+
+@media (min-width: 901px) and (max-width: 991px){
+
+    .parrafo{
+        position: absolute;
+    top: 28%;
+    left: 27%;
+    }
+
+    .parrafo h1{
+        font-size: 85px;
+    }
+
+    .parrafo h6{
+        font-size: 47px;
+    }
+
+
+    .caja-informacion{
+        height: 293px;
+    }
+
+    .hijo-aliados-img{
+        margin-bottom: 4%;
+    }
+
+    .caja-imagen{
+        width: 43%;
+    }
+
+    .foto-6, .foto-7{
+        width: 111%;
+    }
+
+    .caja-adicionales3{
+        position: relative;
+        bottom: 49%;
+    }
+
+    .button-btn{
+        width: 134% !important;
+    }
+
+    .galeria3-1{
+        width: 80%;
+    }
+
+    .galeria3-2{
+        margin-top: 21%;
+        width: 80%;
+    }
+
+    .caja-sqn-info{
+        width: 69%;
+        position: absolute;
+        left: 24%;
+    }
+
+    .galeria3{
+        display: block;
+    width: 74%;
+    }
+
+    .galeria-1{
+        margin-top: 10%;
+    }
+
+    .foto-6{
+        width: 52%;
+    }
+
+    .foto-7{
+        width: 54%;
+    }
+
+    .conocer-mas-2{
+        position: relative;
+    left: 4%;
+    }
+
+    .adicionales2-text{
+        width: 40%;
+        position: absolute;
+    right: 38%;
+    }
+
+    .caja-adicionales2{
+        margin-top: 5%;
+    }
+
+    .caja-verde-a{
+        left: 56%;
+        height: 86vh;
+        position: relative !important;
+        height: 86vh;
+    }
+
+    .img-adicionales{
+        width: 83%;
+    }
+
+    .hoja-adicionales{
+        margin-left: 67%;
+        position: absolute;
+        width: 11%;
+        margin-top: -1%;
+    }
+
+    .img-servicios{
+        position: relative !important;
+    bottom: 58% !important;
+    }
+
+    .servicioimg{
+        width: 87%;
+    }
+
+    .hijos-adicionales1{
+        width: 27%;
+    position: relative;
+    left: 59%;
+    }
+
+    .listas-residenciales{
+        margin-left: 1%;
+    }
+
+    .conocer-boton{
+        height: 51px;
+        width: 73%;
+    }
+
+    .caja-servicios{
+        margin-left: 9%;
+    }
+
+    .text-servicios{
+        font-size: 27px;
+    }
+
+    .caja-2{
+        position: absolute;
+    left: 80%;
+    top: 42%;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 999px){
+
+    .caja-verde-a{
+        width: 43.6%;
+    height: 72vh;
+    }
+
+    .hoja-adicionales{
+        margin-left: 83%;
+    }
+
+    .img-adicionales{
+        width: 70%;
+    }
+
+    .diseños1{
+        margin: 40px;
+    }
+
+    .conocer-mas-2{
+        width: 53%;
+    }
+    .servicioimg{
+        width: 99%;
+    }
+
+    .listas-residenciales{
+        width: 64%;
+    margin-left: 5%;
+    }
+
+    .caja-sqn-info{
+        position: absolute;
+    right: 8%;
+    }
+
+    .caja-adicionales3{
+        width: 82%;
+    position: relative;
+    left: 19%;
+    top: -42%;
+    }
+
+    .img-uni{
+        width: 56%;
+    }
+
+    .hijo-adicionales1{
+            width: 35%;
+    }
+
+    .img-servicios{
+        width: 60%;
+    position: relative !important;
+    left: 10% !important;
+    top: -55%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px){
+    .conocer-mas-2{
+        width: 48% !important;
+    }
+
+    .conocer-boton{
+        width: 62%;
+    }
+
+    .img-adicionales{
+        width: 64%;
+    }
+
+    .servicioimg{
+        width: 74%;
+    }
+
+    .caja-verde-a{
+        width: 44%;
+        height: 66vh;
+    }
+
+    .listas-residenciales{
+        padding-left: 41%;
+    }
+
+    .hijo-adicionales1{
+        width: 34%;
+    }
+
+    .caja-sqn-info{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1099px){
+   .listas-residenciales{
+    padding-left: 42%;
+   }
+
+   .caja-verde-a{
+    width: 43.6%;
+   }
+
+   .caja-sqn-info{
+    position: absolute;
+    right: 8%;
+   }
+
+   .sqn-info{
+    width: 10%;
+   }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px){
+    .lista1 p{
+        font-size: 25px;
+    }
+
+
+    .caja-adicionales3{
+        position: relative;
+    bottom: 53%;
+    }
+
+    .text1, .text2{
+        font-size: 25px;
+    }
+
+    .caja-imagen{
+        position: relative;
+    width: 40%;
+    bottom: 7%;
+    left: 7%;
+    }
+
+    .caja-verde-a{
+        height: 72vh;
+    width: 43.5%;
+    }
+
+    .hoja-adicionales{
+        margin-left: 81%;
+    }
+
+    .conocer-mas-2{
+        position: relative;
+    left: 2%;
+    width: 72%;
+    }
+
+    .caja-diezaños{
+        font-size: 22px;
+    }
+
+    .caja-sqn-info{
+        margin-top: 6%;
+    width: 82%;
+    position: relative;
+    left: 11%;
+    }
+}
